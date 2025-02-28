@@ -1,0 +1,22 @@
+Getting started with your Gradio Space.
+Your Space is online and ready to be updated.
+
+Start by cloning this Space repository using git:
+Copied: git clone https://huggingface.co/spaces/GCBlanca/Experimentos
+# When prompted for a password, use an access token with write permissions.
+# Generate one from your settings: https://huggingface.co/settings/tokens
+git clone https://huggingface.co/spaces/GCBlanca/Experimentos
+  (Use an access token as git password/credential)
+
+Modify the files locally, then commit and push:
+Copied: git commit -am 'Update space' && git push
+git commit -am "Update space"
+git push
+
+===== Application Startup at 2025-02-28 13:36:59 =====
+
+/usr/local/lib/python3.10/site-packages/gradio/components/chatbot.py:228: UserWarning: The 'tuples' format for chatbot messages is deprecated and will be removed in a future version of Gradio. Please set type='messages' instead, which uses openai-style 'role' and 'content' keys.
+  warnings.warn(
+* Running on local URL:  http://0.0.0.0:7860, with SSR ⚡
+
+To create a public link, set `share=True` in `launch()`.
